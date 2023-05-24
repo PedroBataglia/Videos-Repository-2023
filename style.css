@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: radial-gradient( green, blue);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(68.15deg, rgb(42, 146, 232), rgb(55, 24, 255)) ;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.titulo-cabecalho {
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    gap: 100px;
+}
+
+.itens-nav {
+    display: inline-block;
+    margin: 0 10px;
+    text-shadow: 1px 3px 2px rgb(31, 31, 31);
+}
+
+.itens-nav a:hover {
+    color: darkcyan;
+    text-decoration: underline;
+}
+
+
+.navegacao a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.apresentacao {
+    margin: 10px 10px;
+    width: 70%;
+    display: flex;
+    border-radius: 15px;
+    background: linear-gradient(90deg, darkcyan, darkblue);
+    box-shadow: 30px 30px 20px #101010,
+    -10px 10px 15px gray;
+    transition: 1s all;
+
+}
+
+.apresentacao:hover {
+    background: linear-gradient(90deg, Turquoise, blue);
+
+}
+
+
+
+.aprensentacao-principal {
+    display:inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    width: 40%;
+    text-align: center;
+}
+
+.titulo-nome, .texto-principal {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px darkturquoise;
+}
+
+
+
+.foto-perfil {
+    width: 350px;
+    border-radius: 50%;
+    margin: 50px;
+    box-shadow: 15px 15px 15px #000000;
+    transition: 1s all;
+}
+
+.foto-perfil:hover {
+    width: 370px;
+    box-shadow: -20px 20px 20px #101010;
+}
+
+/* Parte dos atletas */
+.texto-atletas {
+    background: linear-gradient( darkcyan, white);
+}
+
+.conteudo-inicial-atletas {
+    display:inline-block;
+    vertical-align: top;
+    margin: 50px;
+    width: 40%;
+    background: linear-gradient(darkturquoise, whitesmoke, gray);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.foto-dupla {
+    height: 450px;
+    width: 350px;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow:10px 10px 10px #101010, 
+    25px 25px 20px darkturquoise,
+    -5px -5px 5px darkorange,
+    -15px 15px 10px #101010;
+    
+}
+
+.atletas-principal {
+    width: 30%;
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.texto-paragrafo-atletas {
+    text-align: justify;
+    font-size: 18px;
+    color: #000000;
+
+    
+}
+
+
+
+
+.atletas-titulo-principal {
+    text-align: center;
+    margin-top: 120px;
+    padding: 50px 0;
+    color: #101010;
+    text-shadow: 2px 1px 1px #FFFFFF;
+
+}
+
+.atletas-classicos {
+    background: linear-gradient(white, goldenrod);
+    width: 100%;
+    box-sizing:border-box;
+    padding: 20px 0;
+}
+
+
+.itens-classicos-atletas {
+    display: inline-block;
+    margin: 15px 25px;
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px #101010;
+    transition: 2s  all;
+    font-size: 18px;
+}
+
+.itens-classicos-atletas a {
+    color: #000000;
+    transition: 2s all;
+}
+
+.itens-classicos-atletas:hover, .itens-classicos-atletas:hover a  {
+    background: linear-gradient(rgb(238, 217, 165), darkgoldenrod, darkorange);
+    font-size: 24px;
+    color: rgb(175, 105, 19);
+    text-shadow:2px 1px 1px #101010;
+}
+
+
+.itens-classicos-atletas:hover  .imagens-classicos-atletas {
+    height: 360px;
+    width: 360px;
+    box-shadow: 15px 15px 20px #000000;
+}
+
+
+.itens-classicos-atletas h3, p {
+    margin: 10px;
+    font-weight: bold;
+    
+}
+
+
+.imagens-classicos-atletas {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #101010;
+    transition: 1s all;
+}
+
+
+
+
+
+
+.atletas-modernos {
+    background: linear-gradient(goldenrod, rgb(10, 62, 221), blue);
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+.itens-modernos-atletas {
+    display: inline-block;
+    margin: 15px 25px;
+    text-align: center;
+    padding: 30px 20px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px #101010,
+    15px 15px 15px darkblue;
+    transition: 2s  all;
+    font-size: 18px;
+}
+
+.itens-modernos-atletas a {
+    color: #000000;
+    transition: 2s all;
+}
+
+
+.itens-modernos-atletas h3, p {
+    margin: 10px;
+    font-weight: bold;
+    
+}
+
+.itens-modernos-atletas:hover, .itens-modernos-atletas:hover a {
+    background: linear-gradient(rgb(44, 79, 191),darkblue);
+    font-size: 24px;
+    color: darkcyan;
+    text-shadow:2px 1px 1px #101010;
+}
+
+.itens-modernos-atletas:hover .imagens-modernos-atletas {
+    height: 360px;
+    width: 360px;
+    box-shadow: 15px 15px 20px #000000;
+}
+
+
+.imagens-modernos-atletas {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #101010;
+    transition: 1s all;
+}
+
+
+
+
+
+
+
+
+.atletas-tiktok {
+    background: linear-gradient(blue, darkviolet);
+    width: 100%;
+    padding: 20px 0;
+}
+
+.itens-tiktok-atletas h3, p {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.itens-tiktok-atletas {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    margin: 15px 25px;
+    padding: 30px 20px;
+    font-size: 18px;
+    box-shadow: 10px 10px 10px #000000;
+    transition: 2s all;
+}
+
+.itens-tiktok-atletas a {
+    color: #000000;
+    transition: 2s all;
+}
+
+
+.itens-tiktok-atletas:hover, .itens-tiktok-atletas:hover a {
+    background: linear-gradient(rgb(55, 0, 238), rgb(93, 0, 134));
+    font-size: 24px;
+    color: darkviolet;  
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.itens-tiktok-atletas:hover .imagens-tiktok-atletas {
+    box-shadow: 10px 10px 10px #000000,
+     15px 15px 15px rgb(93, 0, 134);
+    height: 360px;
+    width: 360px;
+
+}
+
+
+
+
+.imagens-tiktok-atletas {
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    box-shadow: 10px 10px 10px #101010,
+    15px 15px 15px rgb(138, 0, 214);
+    transition: 1s all;
+}
+
+
+
+
+
+
+/* Parte das ligas das lendas */
+.conteudo-videos {
+    background: linear-gradient(135deg,  orange 20%, violet, blue);
+}
+
+.lista-videos li {
+    display: inline-block;
+}
+
+
+.imagens-videos {
+    margin: 25px;
+    width: 450px;
+}
+
+.titulo-videos {
+    font-size: 42px;
+    color: rgb(215, 215, 215);
+    text-shadow: 2px 2px violet, -2px -2px #000000;
+    position: absolute;
+    margin: 30px 120px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.itens-videos:hover .titulo-videos {
+    opacity: 1;
+}
+
+.imagens-videos {
+    box-shadow: 15px 15px 10px #101010,
+    -10px 10px 10px darkorange;
+    transition: 1s all;
+}
+
+.imagens-videos:hover {
+    width: 500px;
+    box-shadow: 20px 20px 20px #000000;
+}
+
+.itens-videos:last-child .imagens-videos {
+    box-shadow: 20px 20px 20px #000000,
+    -10px 10px 10px violet;
+}
+
+.itens-videos:nth-child(2) .imagens-videos {
+    box-shadow: 20px 20px 20px #000000,
+    12px 10px 10px violet,
+    -10px 1px 10px darkorange;;
+}
+
+
+
+
+
+
+
+
+
+/*Parte dos artistas :p */
+.conteudo-principal {
+    background: linear-gradient(34deg, blue, purple);
+}
+
+
+
+.lista-artistas li {
+    margin: 100px 10px;
+    padding: 30px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    display: inline-block;
+    opacity: 0.5;
+    transition: 1s all;
+    background: linear-gradient(169deg, white, gray,  blue);
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.imagens-cantores {
+    height: 300px;
+    width: 300px;
+    
+}
+
+.lista-artistas li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* Rodapé estilização */ 
+.rodape {
+    background: darkgrey;
+    
+}
+
+.imagem-rodape {
+    display: block; 
+    margin-left: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.lista-rodape {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    
+}
+
+.itens-rodape {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    align-self: center;
+}
+ 
+
+.itens-rodape a {
+    font-weight: bold;
+    color: #101010;
+    text-shadow: 1px 1px  #101010;
+    padding: 5px;
+}
+
+.itens-rodape a:hover {
+    color: aqua;
+}

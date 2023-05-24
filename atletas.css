@@ -1,0 +1,101 @@
+.conteudo {
+    background: radial-gradient(crimson 15%, midnightblue);
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    place-items: left;
+    min-height: 100vh;
+}
+
+.box {
+    margin: 25px;
+    position:relative;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 1200px;
+    background-image: conic-gradient(transparent, transparent, transparent, red);
+    animation: rotate 4s linear infinite;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 1200px;
+    background-image: conic-gradient(transparent,transparent, transparent, darkmagenta);
+    animation: rotate 4s linear infinite;
+    animation-delay: -2s;
+}
+
+
+.box span {
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    background: linear-gradient(darkred, magenta);
+    z-index: 2;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.imagem-atleta-apresentacao {
+    margin: 15px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #101010,
+    -5px 5px 5px #FF0000;
+}
+
+
+.historia-atletas {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(darkred, magenta);    
+    border-radius: 20px;
+}
+
+.conteudo-secundario {
+    font-size: 18px;
+    color: aliceblue;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    text-align: justify;
+    text-shadow: 5px 5px 5px #ed5292;
+}
+
+.imagens-atletas {
+    display: inline-block;
+    width: 400px;
+}
+
+
+.imagem-conteudo-secundario {
+    width: 350px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px #101010,
+    -5px -5px 5px darkred;
+}
+

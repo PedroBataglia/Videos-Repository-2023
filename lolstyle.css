@@ -1,0 +1,336 @@
+/* Conteúdo individual - LoL - keio */
+
+.body-player {background: radial-gradient( rgb(162, 20, 130), rgb(18, 18, 18));}
+
+
+
+.imagem-conteudo-player {
+    margin: 30px;
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px #101010,
+    -5px -5px 5px darkviolet;
+    opacity: 0.5;
+    transition: 2s all;
+}
+
+.imagem-conteudo-player:hover {
+    width: 460px;
+    opacity: 1;
+}
+
+.conteudo-principal-player {
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 32px;
+    background: linear-gradient(darkmagenta, #101010);
+    box-shadow: 15px 15px 15px #101010,
+    -5px 5px 5px #761460;
+}
+
+
+
+
+
+.conteudo-player-divisao {
+    margin: 30px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.conteudo-player-divisao h2, p {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.paragrafo-player-conteudo {
+    text-shadow: 2px 2px 2px black,
+     3px 3px 4px darkmagenta;;
+}
+
+
+
+.video-conteudo-divisao {
+    padding: 30px;
+    margin: 100px;
+    box-shadow: 20px 20px 30px #000000;
+    border-radius: 40px;
+    background: radial-gradient(darkmagenta, black);
+}
+
+.videos-conteudo-iframe {
+    margin: 0 100px;
+    
+}
+
+
+.lista-conteudo-secundario {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.itens-conteudo-secundario a {
+    text-align: center;
+    font-size: 35px;
+    color: #FEFEFE;
+    text-shadow: 5px 5px 5px #000000,
+    -5px -5px 5px #761460;
+    
+}
+
+.itens-conteudo-secundario {
+    list-style: none;
+}
+
+
+/* Conteúdo individual - LoL - Minerva */
+.body-player-minerva {
+    background: radial-gradient(darkorange, darkmagenta );
+
+}
+
+.imagem-conteudo-player-minerva {
+
+}
+
+.conteudo-player-divisao-minerva {
+    margin: 30px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.conteudo-principal-player-minerva {
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 32px;
+    background: linear-gradient(darkmagenta, darkorange);
+    box-shadow: 15px 15px 15px #101010,
+    -5px 5px 5px #9718e6;
+}
+
+
+.conteudo-player-divisao-minerva h2, p {
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black,
+     3px 3px 4px orange,
+     -1px -1px 2px violet;
+}
+
+
+
+
+.video-conteudo-divisao-minerva {
+    padding: 30px;
+    margin: 90px;
+    box-shadow: 20px 20px 30px #000000;
+    border-radius: 40px;
+    background: radial-gradient(darkmagenta, darkorange);
+}
+
+
+
+.lista-conteudo-secundario-minerva {
+    display: inline-block;
+    vertical-align: sub;
+    list-style: none;
+}
+
+.itens-conteudo-secundario-minerva a {
+    text-align: center;
+    font-size: 35px;
+    color: #FEFEFE;
+    text-shadow: 5px 5px 5px #000000,
+    -5px -5px 5px darkgoldenrod;
+}
+
+
+
+
+/* Conteúdo individual - LoL - Daniels*/
+
+.body-daniels {background: radial-gradient( orange, orangered);}
+
+
+
+.imagem-conteudo-daniels {
+    margin: 30px;
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px #101010,
+    -15px -15px 15px darkgoldenrod;
+    opacity: 0.5;
+    transition: 2s all;
+}
+
+.imagem-conteudo-daniels:hover {
+    width: 460px;
+    opacity: 1;
+}
+
+.conteudo-principal-daniels {
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 32px;
+    background: linear-gradient(darkorange, orangered);
+    box-shadow: 15px 15px 15px #101010,
+    -5px 5px 5px orangered;
+}
+
+
+
+
+
+.conteudo-daniels-divisao {
+    margin: 30px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.conteudo-daniels-divisao h2, p {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.paragrafo-daniels-conteudo {
+    text-shadow: 2px 2px 2px black,
+     3px 3px 4px rgb(118, 86, 6);;
+}
+
+
+
+.video-conteudo-daniels-divisao {
+    padding: 30px;
+    margin: 100px;
+    box-shadow: 20px 20px 30px #000000;
+    border-radius: 40px;
+    background: radial-gradient(orange, orangered);
+}
+
+.videos-conteudo-iframe {
+    margin: 0 100px;
+    
+}
+
+
+.lista-conteudo-secundario {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.itens-conteudo-daniels-secundario a {
+    text-align: center;
+    font-size: 35px;
+    color: #FEFEFE;
+    text-shadow: 5px 5px 5px #000000,
+    -2px -2px 2px darkorange,
+    -5px -5px 5px #EEEE00;
+    
+}
+
+.itens-conteudo-daniels-secundario {
+    list-style: none;
+}
+
+/* Conteúdo individual - LoL - Mylennzy*/
+
+.body-mylennzy {background: radial-gradient( darkred, black);}
+
+
+
+.imagem-conteudo-mylennzy {
+    margin: 30px;
+    width: 450px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px #101010,
+    -15px -15px 15px red;
+    opacity: 0.5;
+    transition: 2s all;
+}
+
+.imagem-conteudo-mylennzy:hover {
+    width: 460px;
+    opacity: 1;
+}
+
+.conteudo-principal-mylennzy {
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 32px;
+    background: linear-gradient(red 35%, darkred);
+    box-shadow: 15px 15px 15px #101010,
+    -5px 5px 5px rgb(156, 23, 23);
+}
+
+
+
+
+
+.conteudo-mylennzy-divisao {
+    margin: 30px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.conteudo-mylennzy-divisao h2, p {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.paragrafo-mylennzy-conteudo {
+    text-shadow: 2px 2px 2px black,
+     3px 3px 4px orange;
+}
+
+
+
+.video-conteudo-mylennzy-divisao {
+    padding: 30px;
+    margin: 100px;
+    box-shadow: 20px 20px 30px #000000,
+    -5px 5px 5px darkred;
+    border-radius: 40px;
+    background: radial-gradient(red, darkred,);
+}
+
+.videos-conteudo-iframe {
+    margin: 0 100px;
+    
+}
+
+
+.lista-conteudo-secundario {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.itens-conteudo-mylennzy-secundario a {
+    text-align: center;
+    font-size: 35px;
+    color: #FEFEFE;
+    text-shadow: 5px 5px 5px #000000,
+    -2px -2px 2px red,
+    -5px -5px 5px darkred;
+    
+}
+
+.itens-conteudo-mylennzy-secundario {
+    list-style: none;
+}
+
